@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.contact {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 25px;
+    color: rgb(145, 17, 196);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+  font-size: 10px;
+    color: rgba(168, 167, 167, 0.842);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+  background-color: #f2f2f2; 
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  flex-basis: 45%;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff; 
+  box-sizing: border-box;
+}
+
+.textarea-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff; 
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 18px;
+    background: rgb(0, 132, 255);
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+
+button i {
+  margin-left: 5px;
+}

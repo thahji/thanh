@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form Title */
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+  
+  /* Form Wrapper */
+  .contact-wrapper {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Form Group */
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Field */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #7b7b7b;
+    border: 1px solid #ccc;
+  }
+  
+  /* Input Icon */
+  .form-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+  
+  button{
+    padding: 10px 20px;
+    background-color: #e23513;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    
+}
+.password-hide {
+  display: none;
+}

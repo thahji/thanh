@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Bài 4</title>
+    <link rel="stylesheet" href="style4.css">
+     <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+        <h1>Tính chỉ số BMI</h1>
+        <div class="form-group">
+            <label for="weight">Nhập cân nặng?</label>
+            <input type="number" id="weight" required>
+        </div>
+        <div class="form-group">
+            <label for="height">Nhập chiều cao?</label>
+            <input type="number" id="height" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Chọn loại tuổi?</label>
+            <select id="age">
+                <option value="middle">Trung niên</option>
+                <option value="middle_elderly">Trung niên già lớn tuổi</option>
+                <option value="elderly">Già lớn tuổi</option>
+            </select>
+        </div>
+        <button onclick="calculateBMI()">Tính BMI</button>
+        <div id="result"></div>
+    </div>
+    </div>
+    <script src="script4.js"></script>
+</body>
+</html>
